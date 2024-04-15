@@ -1,7 +1,7 @@
 /*Write the code for single bit full adder using
    b) Gate level modeling
      i. Create 4-bit full adder using single bit full adders (designed at gate level).
-    ii. Create 8-bit full adder using 4-bit full adders (designed above).
+    ii. Create 8-bit full adder using 4-bit full adders (designed above).*/
 
 
 
