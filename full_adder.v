@@ -1,3 +1,10 @@
+/*Write the code for single bit full adder using
+   b) Gate level modeling
+     i. Create 4-bit full adder using single bit full adders (designed at gate level).
+    ii. Create 8-bit full adder using 4-bit full adders (designed above).
+
+
+
 module full_adder ();
  input [7:0] a,b,c;
  output [7:0] sum,carry;
@@ -15,6 +22,6 @@ module fulladder(a,b,c,sum,carry);
  and a1 (t1,a,b);
  and a2 (t2,b,c);
  and a3 (t3,a,c);
- or o1 (carry,t1,t2,t3);*/
+ or o1 (carry,t1,t2,t3);
  
  
