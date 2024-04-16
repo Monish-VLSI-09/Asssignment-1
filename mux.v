@@ -4,7 +4,8 @@
     b) Ternary Operator
       i. Extend the concept to build 4:1 mux using Ternary operation only
 
-
+2.a)
+ i]
 module mux(D,S,Y);             //2a[i]) 4:1 mux using 2:1 mux in gate level
  input [3:0] D;
  input S;
@@ -17,8 +18,8 @@ module mux(D,S,Y);             //2a[i]) 4:1 mux using 2:1 mux in gate level
 endmodule
  
  
-
-module mux2_1(D,S,Y);    // 2a) 2:1 mux using gate level modeling
+2.a)
+module mux2_1(D,S,Y);    //2:1 mux using gate level modeling
  input [1:0] D;
  input S;
  output Y;
@@ -31,8 +32,8 @@ module mux2_1(D,S,Y);    // 2a) 2:1 mux using gate level modeling
 endmodule
  
 
-
-module mux(D,S1,S0,Y);        //2b[i]) 4:1 using ternary
+2b[i]) 
+module mux(D,S1,S0,Y);        //4:1 using ternary
  input [3:0] D;
  input S1,S0;
  output Y;
@@ -40,7 +41,8 @@ module mux(D,S1,S0,Y);        //2b[i]) 4:1 using ternary
  assign Y= S1 ? (S0 ? D[3] : D[2]) : (S0 ? D[1] : D[0]);
 endmodule
 
- module mux2_1(D,S,Y);     //2b) 2:1 mux using ternary
+2b)
+ module mux2_1(D,S,Y);     //2:1 mux using ternary
  input [1:0] D;
  input S;
  output Y;
